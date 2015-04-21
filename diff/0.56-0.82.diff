@@ -1,0 +1,25 @@
+Only in 0.82/database_default/aprondb-patches: upgrade_10_11.sql
+Only in 0.82/database_default/aprondb-patches: upgrade_11_12.sql
+Only in 0.82/database_default/aprondb-patches: upgrade_12_13.sql
+Only in 0.82/database_default/aprondb-patches: upgrade_13_14.sql
+Files 0.56/database_default/aprondb-patches/upgrade_9_10.sql and 0.82/database_default/aprondb-patches/upgrade_9_10.sql differ
+Only in 0.56/database_default/zigbee-ota-images: Tripper-0X17_20141218.ota
+Only in 0.82/database_default/zigbee-ota-images: Tripper_0X18.ota
+Only in 0.82/database_default/zigbee-ota-images: zhaOutlet_smartOutlet_12_18_2014_0x01020007.ota
+Only in 0.56/database_default/zigbee-ota-images: zhaSwitch_smartSwitch_11_25_2014_0x01020006.ota
+Only in 0.82/database_default/zigbee-ota-images: zhaSwitch_smartSwitch_12_26_2014_0x01020108.ota
+Files 0.56/etc/init.d/S31platform and 0.82/etc/init.d/S31platform differ
+Files 0.56/etc/monitrc and 0.82/etc/monitrc differ
+Files 0.56/etc/ssl/certs/ca-certificates.crt and 0.82/etc/ssl/certs/ca-certificates.crt differ
+Files 0.56/mfgtests/sdk/mfgtest.sh and 0.82/mfgtests/sdk/mfgtest.sh differ
+Files 0.56/root/platform/platform.config and 0.82/root/platform/platform.config differ
+Files 0.56/root/platform/platform.sh and 0.82/root/platform/platform.sh differ
+Files 0.56/root/platform/upgrade.sh and 0.82/root/platform/upgrade.sh differ
+Files 0.56/usr/lib/libapron.so and 0.82/usr/lib/libapron.so differ
+Files 0.56/usr/lib/libdbinterface.so and 0.82/usr/lib/libdbinterface.so differ
+Files 0.56/usr/lib/libflx.so and 0.82/usr/lib/libflx.so differ
+Files 0.56/usr/sbin/aprond and 0.82/usr/sbin/aprond differ
+Files 0.56/usr/sbin/aprontest and 0.82/usr/sbin/aprontest differ
+Files 0.56/usr/sbin/hub and 0.82/usr/sbin/hub differ
+Files 0.56/usr/sbin/ZigBeeHACoord and 0.82/usr/sbin/ZigBeeHACoord differ
+Files 0.56/var/www/index.php and 0.82/var/www/index.php differ

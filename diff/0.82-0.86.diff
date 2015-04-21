@@ -1,0 +1,7 @@
+Only in 0.86/database_default/aprondb-patches: upgrade_14_15.sql
+Only in 0.86/database_default: refurb_mode
+Files 0.82/etc/init.d/S31platform and 0.86/etc/init.d/S31platform differ
+Files 0.82/etc/shadow and 0.86/etc/shadow differ
+Only in 0.86/mfgtests: refurb.sh
+Files 0.82/root/config/ca1-cert.pem and 0.86/root/config/ca1-cert.pem differ
+Files 0.82/usr/sbin/hub and 0.86/usr/sbin/hub differ

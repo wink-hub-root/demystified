@@ -1,0 +1,53 @@
+Only in 0.56/database_default: aprondb-patches
+Files 0.04/database_default/u-boot.env and 0.56/database_default/u-boot.env differ
+Only in 0.56/database_default: zigbee-ota-images
+Only in 0.56/etc/init.d: S10rgbd
+Files 0.04/etc/init.d/S31platform and 0.56/etc/init.d/S31platform differ
+Files 0.04/etc/init.d/S41wireless and 0.56/etc/init.d/S41wireless differ
+Files 0.04/etc/init.d/S42bluetooth and 0.56/etc/init.d/S42bluetooth differ
+Files 0.04/etc/init.d/S50dropbear and 0.56/etc/init.d/S50dropbear differ
+Files 0.04/etc/rc.d/init.d/zigbee and 0.56/etc/rc.d/init.d/zigbee differ
+Files 0.04/etc/ssl/certs/ca-certificates.crt and 0.56/etc/ssl/certs/ca-certificates.crt differ
+Files 0.04/mfgtests/sdk/mfg_tests/zigbee_tests.sh and 0.56/mfgtests/sdk/mfg_tests/zigbee_tests.sh differ
+Files 0.04/mfgtests/sdk/tools/z-wave_micro_terminal-auto and 0.56/mfgtests/sdk/tools/z-wave_micro_terminal-auto differ
+Files 0.04/root/config/hub.conf and 0.56/root/config/hub.conf differ
+Files 0.04/root/platform/platform.config and 0.56/root/platform/platform.config differ
+Files 0.04/root/platform/platform.sh and 0.56/root/platform/platform.sh differ
+Only in 0.56/root/platform: resetDeviceDatabase.sh
+Only in 0.56/root/platform: update-aprondb.sh
+Only in 0.56/root/platform: update-zigbee.sh
+Files 0.04/root/platform/upgrade.sh and 0.56/root/platform/upgrade.sh differ
+Only in 0.56/root/platform: version.sh
+Only in 0.56/root/platform: zigbee-ncp-image
+Only in 0.04/root: .ssh
+Only in 0.56/root/wifi: network_status_check.sh
+Files 0.04/root/wifi/run_ap.sh and 0.56/root/wifi/run_ap.sh differ
+Files 0.04/root/wifi/wpa_action.sh and 0.56/root/wifi/wpa_action.sh differ
+Files 0.04/usr/lib/libapron.so and 0.56/usr/lib/libapron.so differ
+Files 0.04/usr/lib/libdbinterface.so and 0.56/usr/lib/libdbinterface.so differ
+Files 0.04/usr/lib/libflx.so and 0.56/usr/lib/libflx.so differ
+Files 0.04/usr/sbin/aprond and 0.56/usr/sbin/aprond differ
+Files 0.04/usr/sbin/aprontest and 0.56/usr/sbin/aprontest differ
+Files 0.04/usr/sbin/bluetoothd and 0.56/usr/sbin/bluetoothd differ
+Files 0.04/usr/sbin/hub and 0.56/usr/sbin/hub differ
+Only in 0.56/usr/sbin: ledEventDeviceUpdated
+Only in 0.56/usr/sbin: ledEventOperationFail
+Only in 0.56/usr/sbin: ledEventOperationStart
+Only in 0.56/usr/sbin: ledEventOperationSuccess
+Only in 0.56/usr/sbin: rgbd
+Only in 0.56/usr/sbin: setrgb
+Files 0.04/usr/sbin/set_rgb and 0.56/usr/sbin/set_rgb differ
+Only in 0.04/usr/sbin: set_rgb_loop
+Files 0.04/usr/sbin/ZigBeeHACoord and 0.56/usr/sbin/ZigBeeHACoord differ
+Files 0.04/usr/share/udhcpc/default.script and 0.56/usr/share/udhcpc/default.script differ
+Only in 0.04/var/www: data
+Only in 0.04/var/www: db.php
+Only in 0.04/var/www: dev_detail.php
+Only in 0.04/var/www: devices.php
+Only in 0.04/var/www: dev_list.php
+Only in 0.04/var/www: footer.php
+Only in 0.04/var/www: header.php
+Files 0.04/var/www/index.php and 0.56/var/www/index.php differ
+Only in 0.04/var/www: logging.php
+Only in 0.04/var/www: set_dev_value.php
+Only in 0.04/var/www: thttpd_config
