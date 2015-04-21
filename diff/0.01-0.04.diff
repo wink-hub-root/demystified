@@ -1,0 +1,16 @@
+Only in 0.01/database_default: wpa_supplicant.conf
+Files 0.01/etc/init.d/S41wireless and 0.04/etc/init.d/S41wireless differ
+Only in 0.01/etc/init.d: S99local
+Files 0.01/etc/inittab and 0.04/etc/inittab differ
+Files 0.01/mfgtests/sdk/tools/z-wave_micro_terminal-auto and 0.04/mfgtests/sdk/tools/z-wave_micro_terminal-auto differ
+Files 0.01/root/config/hub.conf and 0.04/root/config/hub.conf differ
+Only in 0.01/root/platform: run_upgrade.sh
+Files 0.01/root/wifi/run_ap.sh and 0.04/root/wifi/run_ap.sh differ
+Files 0.01/usr/lib/libapron.so and 0.04/usr/lib/libapron.so differ
+Files 0.01/usr/lib/libdbinterface.so and 0.04/usr/lib/libdbinterface.so differ
+Files 0.01/usr/lib/libflx.so and 0.04/usr/lib/libflx.so differ
+Files 0.01/usr/sbin/aprond and 0.04/usr/sbin/aprond differ
+Files 0.01/usr/sbin/aprontest and 0.04/usr/sbin/aprontest differ
+Files 0.01/usr/sbin/hub and 0.04/usr/sbin/hub differ
+Files 0.01/usr/sbin/ZigBeeHACoord and 0.04/usr/sbin/ZigBeeHACoord differ
+Files 0.01/usr/share/udhcpc/default.script and 0.04/usr/share/udhcpc/default.script differ
