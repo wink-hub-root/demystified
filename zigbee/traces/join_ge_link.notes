@@ -1,0 +1,143 @@
+Permit Joining for | 60 seconds | 01
+01 00              | 3c         | ?
+ACK
+
+Join response | NetAddr | LongAddr                | ?
+01            | d9 93   | 7c e5 24 00 00 01 02 37 | 01
+Node Descriptor Req | NetAddr
+ 13 00         | d9 93
+ACK
+
+NODE ACK | NetAddr
+11       | d9 93
+ ?  | LongAddr                | NetAddr | ?
+ 10 | 7c e5 24 00 00 01 02 37 | d9 93   | 00 00 00 00 00 00 00 00 00
+NODE ACK 
+
+Node Descriptor Resp | NetAddr | Mfgr ID | ?
+03                   | d9 93   | 10 dc   | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+NODE ACK 
+
+Active Endpoint Req | NetAddr
+05 00               | d9 93
+ACK
+
+NODE ACK
+
+Active Endpoint Resp | NetAddr | # Endpoints | Endpoints |
+02                   | d9 93   | 01          | 01        |
+Simple Descr Req     |         | Endpoint
+06                   | d9 93   | 01
+ACK
+
+NODE ACK
+
+Simple Descr Resp    | NetAddr | Endpoint | Device Type | # IN Clusters | IN Clusters                                     | # Out Clusters | Out Clusters
+04                   | d9 93   | 01       | 01 01 (257) | 07            | 00 00  00 03  00 04  00 05  00 06  00 08  10 00 | 01             | 19 00
+ZDO Bind Req | NetAddr | LongAddr                | Enpt | Cluster ID | ?
+07 00        | d9 93   | 7c e5 24 00 00 01 02 37 | 01   | 00 19      | 00 00 00 00 00 00 00 00 01
+ACK
+
+Read Attributes | NetAddr | LongAddr                | Enpt | Cluster | N attr |
+11 00           | d9 93   | 7c e5 24 00 00 01 02 37 | 01   | 00 00   | 01     | 00 05
+ACK
+
+NODE ACK
+
+Bind Resp  | NetAddr | Zdo status (Success == 0x00)
+0a |  d9 93  | 00
+NODE ACK
+
+Read Attr Resp  | Status?  | LongAddr                | Cluster | attrId | srcEnpt | "ZLL Light"                   |
+08              | 00       | 7c e5 24 00 00 01 02 37 | 00 00   | 00 05  | 01      | 5a 4c 4c 20 4c 69 67 68 74 00 | 20 ad 2a 02 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00
+ZDO Bind Req | NetAddr | LongAddr                | Enpt | Cluster ID |
+07 00        | d9 93   | 7c e5 24 00 00 01 02 37 | 01   | 00 06      | 00 00 00 00 00 00 00 00 01
+ACK
+
+?     | NetAddr | LongAddr                | Enpt | Cluster ID |
+0e 00 | d9 93   | 7c e5 24 00 00 01 02 37 | 01   | 00 06      | 00 00 10 00 02 00 1e
+ACK (Bind for 00 06)
+
+ZDO Bind Req | NetAddr | LongAddr                | Enpt | Cluster ID |
+07 00        | d9 93   | 7c e5 24 00 00 01 02 37 | 01   | 00 08      | 00 00 00 00 00 00 00 00 01
+NODE ACK (Bind for 00 06)
+Bind Resp  | NetAddr | Zdo status (Success == 0x00)
+0a |  d9 93  | 00
+ACK (Bind for 00 08)
+
+NODE ACK
+
+?     | NetAddr | LongAddr                | Enpt | Cluster ID |
+0e 00 | d9 93   | 7c e5 24 00 00 01 02 37 | 01   | 00 08      | 00 00 20 00 02 02 58
+ACK
+
+NODE ACK
+
+Bind Resp  | NetAddr | Zdo status (Success == 0x00)
+0a |  d9 93  | 00
+Read Attributes | NetAddr | LongAddr                | Enpt | Cluster | N attr |
+11 00           | d9 93   | 7c e5 24 00 00 01 02 37 | 01   | 00 00   | 08     | 00 00 | 00 01 | 00 02 | 00 03 | 00 04 | 00 05 | 00 06 | 00 07
+ACK
+
+Read Attributes | NetAddr | LongAddr                | Enpt | Cluster | N attr |
+11 00           | d9 93   | 7c e5 24 00 00 01 02 37 | 01   | 00 04   | 01     | 00 00
+ACK
+
+NODE ACK
+
+Read Attributes | NetAddr | LongAddr                | Enpt | Cluster | N attr |
+11 00           | d9 93   | 7c e5 24 00 00 01 02 37 | 01   | 00 06   | 01     | 00 00
+ACK
+
+Read Attributes | NetAddr | LongAddr                | Enpt | Cluster | N attr |
+11 00           | d9 93   | 7c e5 24 00 00 01 02 37 | 01   | 00 08   | 01     | 00 00
+ACK
+NODE ACK
+Read Attr Resp  | Status ?  | LongAddr                | Cluster | attrId | srcEnpt | "1"  (ZCLVersion)
+08              | 00        | 7c e5 24 00 00 01 02 37 | 00 00   | 00 00  | 01      | 31 00 00 00 00 00 a0 ac 2a 00 20 ad 2a 02 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00 
+Read Attr Resp  | Status ?  | LongAddr                | Cluster | attrId | srcEnpt | "4"  (ApplicationVersion)
+08              | 00        | 7c e5 24 00 00 01 02 37 | 00 00   | 00 01  | 01      | 34 00 00 00 00 00 a0 ac 2a 00 20 ad 2a 02 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00 
+Read Attr Resp  | Status ?  | LongAddr                | Cluster | attrId | srcEnpt | "2"  (StackVersion)
+08              | 00        | 7c e5 24 00 00 01 02 37 | 00 00   | 00 02  | 01      | 32 00 00 00 00 00 a0 ac 2a 00 20 ad 2a 02 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00 
+Read Attr Resp  | Status ?  | LongAddr                | Cluster | attrId | srcEnpt | "1"  (HWVersion)
+08              | 00        | 7c e5 24 00 00 01 02 37 | 00 00   | 00 03  | 01      | 31 00 00 00 00 00 a0 ac 2a 00 20 ad 2a 02 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00 
+Read Attr Resp  | Status ?  | LongAddr                | Cluster | attrId | srcEnpt | "GE_Appliances" (ManufacturerName)
+08              | 00        | 7c e5 24 00 00 01 02 37 | 00 00   | 00 04  | 01      | 47 45 5f 41 70 70 6c 69 61 6e 63 65 73 00 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00 
+Read Attr Resp  | Status ?  | LongAddr                | Cluster | attrId | srcEnpt | "ZLL Light" (ModelIdentifier)
+08              | 00        | 7c e5 24 00 00 01 02 37 | 00 00   | 00 05  | 01      | 5a 4c 4c 20 4c 69 67 68 74 00 63 65 73 00 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00 
+Read Attr Resp  | Status ?  | LongAddr                | Cluster | attrId | srcEnpt | "20140812" (DateCode)
+08              | 00        | 7c e5 24 00 00 01 02 37 | 00 00   | 00 06  | 01      | 32 30 31 34 30 38 31 32 00 00 63 65 73 00 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00 
+Read Attr Resp  | Status ?  | LongAddr                | Cluster | attrId | srcEnpt | "1" (PowerSource)
+08              | 00        | 7c e5 24 00 00 01 02 37 | 00 00   | 00 07  | 01      | 31 00 31 34 30 38 31 32 00 00 63 65 73 00 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00
+Read Attributes | NetAddr | LongAddr                | Enpt | Cluster | N attr |
+11 00           | d9 93   | 7c e5 24 00 00 01 02 37 | 01   | 00 19   | 03     | 00 02 | 00 07 | 00 08
+ACK
+
+NODE ACK
+
+Read Attr Resp   | LongAddr                | Cluster | Attr  | Enpt | NetAddr | "16974848"
+07               | 7c e5 24 00 00 01 02 37 | 00 19   | 00 02 | 01   | d9 93   | 31 36 39 37 34 38 34 38 00 48 f3 7e 80 44 03 00 00 00 00 01 f0 48 f3 7e 6c aa 05 00 00 00 00 01
+NODE ACK
+Read Attr Resp  | Status ?  | LongAddr                | Cluster | attrId | srcEnpt | "0" (Name Support)
+08              | 00        | 7c e5 24 00 00 01 02 37 | 00 04   | 00 00  | 01      | 30 00 00 00 00 00 a0 ac 2a 00 20 ad 2a 02 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00 
+NODE ACK
+Read Attr Resp  | Status ?  | LongAddr                | Cluster | attrId | srcEnpt | "254" (Level)
+08              | 00        | 7c e5 24 00 00 01 02 37 | 00 08   | 00 00  | 01      | 32 35 34 00 00 00 a0 ac 2a 00 20 ad 2a 02 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00 
+NODE ACK
+Read Attr Resp  | Status ?  | LongAddr                | Cluster | attrId | srcEnpt | "16974848" (ZB_CurrentFileVersion)
+08              | 00        | 7c e5 24 00 00 01 02 37 | 00 19   | 00 02  | 01      | 31 36 39 37 34 38 34 38 00 00 20 ad 2a 02 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00 
+Read Attr Resp  | Status ?  | LongAddr                | Cluster | attrId | srcEnpt | "4316" (
+08              | 00        | 7c e5 24 00 00 01 02 37 | 00 19   | 00 07  | 01      | 34 33 31 36 00 38 34 38 00 00 20 ad 2a 02 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00
+Read Attr Resp  | Status ?  | LongAddr                | Cluster | attrId | srcEnpt | "65535" (
+08              | 00        | 7c e5 24 00 00 01 02 37 | 00 19   | 00 08  | 01      | 36 35 35 33 35 00 34 38 00 00 20 ad 2a 02 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00
+NODE ACK
+Read Attr Resp   | LongAddr                | Cluster | Attr  | Enpt | NetAddr | "1" (ON/OFF)
+07               | 7c e5 24 00 00 01 02 37 | 00 06   | 00 00 | 01   | d9 93   | 31 00 00 00 00 a0 ac 2a 00 20 ad 2a 02 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00 00
+NODE ACK
+
+Read Attr Resp   | LongAddr                | Cluster | Attr  | Enpt | NetAddr | "254" (Level)
+07               | 7c e5 24 00 00 01 02 37 | 00 08   | 00 00 | 01   | d9 93   | 32 35 34 00 00 a0 ac 2a 00 20 ad 2a 02 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00 00
+NODE ACK
+
+Read Attr Resp  | Status ?  | LongAddr                | Cluster | attrId | srcEnpt | "1" (ON/OFF)
+08              | 00        | 7c e5 24 00 00 01 02 37 | 00 06   | 00 00  | 01      | 31 00 00 00 00 00 a0 ac 2a 00 20 ad 2a 02 00 00 00 02 00 00 00 a0 f2 b5 2a 80 7a ca 2a 00 00 00

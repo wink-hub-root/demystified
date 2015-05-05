@@ -1,0 +1,701 @@
+ZigBeeHACoord>IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+-----Ipc Server Received message-----
+seqNum: 43
+msgType: C
+05/02/2015 23:30:13: 13979.163 EZSP: send command EZSP_PERMIT_JOINING (22)
+05/02/2015 23:30:13: 13979.163 Tx data(4,0) Ar=4 At=0 Ft=4 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:13: 13979.167    data(0,5) Ar=4 At=0 Ft=5 Fr=0 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:13: 13979.168 EZSP: add to queue EZSP_PERMIT_JOINING (22)
+05/02/2015 23:30:13: 13979.168 EZSP: got response EZSP_PERMIT_JOINING (22)
+pJoin for 60 sec: 0x00
+05/02/2015 23:30:13: 13979.168 EZSP: send command EZSP_SEND_BROADCAST (36)
+05/02/2015 23:30:13: 13979.168 Tx ack(1)+   Ar=5 At=1 Ft=5 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:13: 13979.168 Tx data(5,1) Ar=5 At=1 Ft=5 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:13: 13979.179    data(1,6) Ar=5 At=1 Ft=6 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:13: 13979.179 EZSP: add to queue EZSP_SEND_BROADCAST (36)
+05/02/2015 23:30:13: 13979.179 EZSP: got response EZSP_SEND_BROADCAST (36)
+zbUtil_NetworkPermitJoin: Got ember status 0x00
+05/02/2015 23:30:13: 13979.183 Tx ack(2)+   Ar=6 At=2 Ft=6 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:14: 13980.081    data(2,6) Ar=6 At=2 Ft=6 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:14: 13980.081 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:14: 13980.081 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:14: 13980.182 Tx ack(3)+   Ar=6 At=3 Ft=6 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13981.790    data(3,6) Ar=6 At=3 Ft=6 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:16: 13981.791 EZSP: add to queue EZSP_TRUST_CENTER_JOIN_HANDLER (24)
+05/02/2015 23:30:16: 13981.791 EZSP: got response EZSP_TRUST_CENTER_JOIN_HANDLER (24)
+[TCJC][eui]7CE5240000010237[net]D993[st]01[dec]00
+05/02/2015 23:30:16: 13981.792 EZSP: send command EZSP_GET_VALUE (AA)
+05/02/2015 23:30:16: 13981.792 Tx ack(4)+   Ar=6 At=4 Ft=6 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13981.792 Tx data(6,4) Ar=6 At=4 Ft=6 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13981.798    data(4,7) Ar=6 At=4 Ft=7 Fr=4 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:16: 13981.799 EZSP: add to queue EZSP_GET_VALUE (AA)
+05/02/2015 23:30:16: 13981.799 EZSP: got response EZSP_GET_VALUE (AA)
+05/02/2015 23:30:16: 13981.799 EZSP: send command EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:16: 13981.799 Tx ack(5)+   Ar=7 At=5 Ft=7 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13981.799 Tx data(7,5) Ar=7 At=5 Ft=7 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13981.807    data(5,0) Ar=7 At=5 Ft=0 Fr=5 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:16: 13981.807 EZSP: add to queue EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:16: 13981.807 EZSP: got response EZSP_GET_EXTENDED_VALUE (03)
+joinCallback: last rejoin reason 0, last leave reason 0
+05/02/2015 23:30:16: 13981.874 EZSP: send command EZSP_SET_ADDRESS_TABLE_REMOTE_EUI64 (5C)
+05/02/2015 23:30:16: 13981.874 Tx ack(6)+   Ar=0 At=6 Ft=0 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13981.874 Tx data(0,6) Ar=0 At=6 Ft=0 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13981.883    data(6,1) Ar=0 At=6 Ft=1 Fr=6 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:16: 13981.883 EZSP: add to queue EZSP_SET_ADDRESS_TABLE_REMOTE_EUI64 (5C)
+05/02/2015 23:30:16: 13981.883 EZSP: got response EZSP_SET_ADDRESS_TABLE_REMOTE_EUI64 (5C)
+[ind]01
+Trust Center Join Handler: status = UNsecured join, decision = use preconfigured key (00), shortid 0xD993
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+-----Ipc Server Received message-----
+seqNum: 44
+msgType: C
+05/02/2015 23:30:16: 13981.984 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:16: 13981.984 Tx ack(7)+   Ar=1 At=7 Ft=1 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13981.985 Tx data(1,7) Ar=1 At=7 Ft=1 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13981.995    data(7,2) Ar=1 At=7 Ft=2 Fr=7 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:16: 13981.995 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:16: 13981.995 EZSP: got response EZSP_SEND_UNICAST (34)
+zbUtil_ZdoNodeDescriptorRequest: ZDO Node Descriptor Request success!
+05/02/2015 23:30:16: 13981.998 Tx ack(0)+   Ar=2 At=0 Ft=2 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13982.099    data(0,2) Ar=2 At=0 Ft=2 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:16: 13982.099 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:16: 13982.099 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+ RX: ZDO, command 0x0013, status: 0x00
+Device Announce: 0xD993
+05/02/2015 23:30:16: 13982.104 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:16: 13982.104 Tx ack(1)+   Ar=2 At=1 Ft=2 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13982.104 Tx data(2,1) Ar=2 At=1 Ft=2 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13982.145    data(1,3) Ar=2 At=1 Ft=3 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:16: 13982.145 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:16: 13982.145 EZSP: got response EZSP_SEND_UNICAST (34)
+Svc Disc: Starting discovery for cluster 0x0500
+Svc Disc: Waiting 2 sec for discovery to complete
+05/02/2015 23:30:16: 13982.182 Tx ack(2)+   Ar=3 At=2 Ft=3 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13982.183    data(2,3) Ar=3 At=2 Ft=3 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:16: 13982.183 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:16: 13982.183 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:16: 13982.183 Tx ack(3)+   Ar=3 At=3 Ft=3 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13982.184    data(3,3) Ar=3 At=3 Ft=3 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:16: 13982.184 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:16: 13982.184 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+ RX: ZDO, command 0x8002, status: 0x00
+05/02/2015 23:30:16: 13982.226 Tx ack(4)+   Ar=3 At=4 Ft=3 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:16: 13982.226    data(4,3) Ar=3 At=4 Ft=3 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:16: 13982.227 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:16: 13982.227 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:16: 13982.271 Tx ack(5)+   Ar=3 At=5 Ft=3 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13982.281    data(5,3) Ar=3 At=5 Ft=3 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:17: 13982.281 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:17: 13982.281 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+ Svc Disc: Match NOT found from 0xD993.
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+-----Ipc Server Received message-----
+seqNum: 45
+msgType: C
+05/02/2015 23:30:17: 13982.382 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:17: 13982.383 Tx ack(6)+   Ar=3 At=6 Ft=3 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13982.383 Tx data(3,6) Ar=3 At=6 Ft=3 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13982.393    data(6,4) Ar=3 At=6 Ft=4 Fr=6 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:17: 13982.393 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:17: 13982.393 EZSP: got response EZSP_SEND_UNICAST (34)
+zbUtil_ZdoActiveEp: ZDO Active Endpoint Request success!
+05/02/2015 23:30:17: 13982.396 Tx ack(7)+   Ar=4 At=7 Ft=4 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13982.421    data(7,4) Ar=4 At=7 Ft=4 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:17: 13982.421 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:17: 13982.421 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:17: 13982.422 Tx ack(0)+   Ar=4 At=0 Ft=4 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13982.432    data(0,4) Ar=4 At=0 Ft=4 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:17: 13982.433 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:17: 13982.433 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+ RX: ZDO, command 0x8005, status: 0x00
+RX: Active EP Response, Count: 1
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+-----Ipc Server Received message-----
+seqNum: 46
+msgType: C
+05/02/2015 23:30:17: 13982.573 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:17: 13982.573 Tx ack(1)+   Ar=4 At=1 Ft=4 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13982.574 Tx data(4,1) Ar=4 At=1 Ft=4 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13982.584    data(1,5) Ar=4 At=1 Ft=5 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:17: 13982.584 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:17: 13982.584 EZSP: got response EZSP_SEND_UNICAST (34)
+zbUtil_ZdoSimpleDescriptorRequest: ZDO Simple Descriptor Request success!
+05/02/2015 23:30:17: 13982.587 Tx ack(2)+   Ar=5 At=2 Ft=5 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13982.612    data(2,5) Ar=5 At=2 Ft=5 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:17: 13982.612 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:17: 13982.612 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:17: 13982.622 Tx ack(3)+   Ar=5 At=3 Ft=5 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13982.623    data(3,5) Ar=5 At=3 Ft=5 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:17: 13982.623 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:17: 13982.623 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+ RX: ZDO, command 0x8004, status: 0x00
+RX: Simple Desc Resp
+[PZMRC]18 00 93 d9 18 01 04 01 01 01 02 07 00 00 03 00 04 00 05 00 06 00 08 00 00 10 01 19 00
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+-----Ipc Server Received message-----
+seqNum: 47
+msgType: C
+05/02/2015 23:30:17: 13982.777 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:17: 13982.777 Tx ack(4)+   Ar=5 At=4 Ft=5 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13982.777 Tx data(5,4) Ar=5 At=4 Ft=5 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13982.791    data(4,6) Ar=5 At=4 Ft=6 Fr=4 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:17: 13982.791 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:17: 13982.792 EZSP: got response EZSP_SEND_UNICAST (34)
+zbUtil_ZdoSendBindRequest: ZDO Bind request success!
+05/02/2015 23:30:17: 13982.800 Tx ack(5)+   Ar=6 At=5 Ft=6 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+-----Ipc Server Received message-----
+seqNum: 48
+msgType: C
+05/02/2015 23:30:17: 13982.871 EZSP: send command EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:17: 13982.871 Tx data(6,5) Ar=6 At=5 Ft=6 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13982.872    data(5,6) Ar=6 At=5 Ft=7 Fr=5 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:17: 13982.872 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:17: 13982.872 Tx ack(6)+   Ar=6 At=6 Ft=7 Fr=6 Frt=0 Ql=1 To=0 Tp=400 Bf=19
+05/02/2015 23:30:17: 13982.877    data(6,7) Ar=6 At=6 Ft=7 Fr=6 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:17: 13982.877 EZSP: add to queue EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:17: 13982.877 EZSP: got response EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:17: 13982.877 EZSP: send command EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:17: 13982.877 Tx ack(7)+   Ar=7 At=7 Ft=7 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:17: 13982.878 Tx data(7,7) Ar=7 At=7 Ft=7 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:17: 13982.886    data(7,0) Ar=7 At=7 Ft=0 Fr=7 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:17: 13982.886 EZSP: add to queue EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:17: 13982.886 EZSP: got response EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:17: 13982.887 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:17: 13982.887 Tx ack(0)+   Ar=0 At=0 Ft=0 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:17: 13982.887 Tx data(0,0) Ar=0 At=0 Ft=0 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:17: 13982.890    data(0,0) Ar=0 At=0 Ft=1 Fr=0 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:17: 13982.892 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:17: 13982.892 Tx ack(1)+   Ar=0 At=1 Ft=1 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=18
+05/02/2015 23:30:17: 13982.898    data(1,1) Ar=0 At=1 Ft=1 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:17: 13982.898 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:17: 13982.898 EZSP: got response EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:17: 13982.904 Tx ack(2)+   Ar=1 At=2 Ft=1 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:17: 13982.904 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:17: 13982.905 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+ RX: ZDO, command 0x8021, status: 0x00
+[PZMRC]1900
+05/02/2015 23:30:17: 13982.945    data(2,1) Ar=1 At=2 Ft=1 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:17: 13982.946 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:17: 13982.946 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+processing cmd 0
+05/02/2015 23:30:17: 13982.991 Tx ack(3)+   Ar=1 At=3 Ft=1 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13982.991    data(3,1) Ar=1 At=3 Ft=1 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:17: 13982.991 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:17: 13982.991 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+
+T00000000:RX len 17, ep 01, clus 0x0000 (Basic) FC 18 seq 19 cmd 01 payload[05 00 00 42 09 5A 4C 4C 20 4C 69 67 68 74 ]
+Attribute decoded as ZLL Light
+emberAfReadAttributesResponseCallback: clusterId = 0x0
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x5
+emberAfReadAttributesResponseCallback: attribute value = ZLL Light
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+-----Ipc Server Received message-----
+seqNum: 49
+msgType: C
+05/02/2015 23:30:17: 13983.172 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:17: 13983.172 Tx ack(4)+   Ar=1 At=4 Ft=1 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13983.172 Tx data(1,4) Ar=1 At=4 Ft=1 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13983.186    data(4,2) Ar=1 At=4 Ft=2 Fr=4 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:17: 13983.186 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:17: 13983.187 EZSP: got response EZSP_SEND_UNICAST (34)
+zbUtil_ZdoSendBindRequest: ZDO Bind request success!
+05/02/2015 23:30:17: 13983.201 Tx ack(5)+   Ar=2 At=5 Ft=2 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+-----Ipc Server Received message-----
+seqNum: 50
+msgType: C
+05/02/2015 23:30:17: 13983.261 EZSP: send command EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:17: 13983.261 Tx data(2,5) Ar=2 At=5 Ft=2 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:17: 13983.264    data(5,2) Ar=2 At=5 Ft=3 Fr=5 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:17: 13983.264 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:17: 13983.264 Tx ack(6)+   Ar=2 At=6 Ft=3 Fr=6 Frt=0 Ql=1 To=0 Tp=400 Bf=19
+05/02/2015 23:30:17: 13983.269    data(6,2) Ar=2 At=6 Ft=3 Fr=6 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:17: 13983.270 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:17: 13983.270 Tx ack(7)+   Ar=2 At=7 Ft=3 Fr=7 Frt=0 Ql=1 To=0 Tp=400 Bf=18
+05/02/2015 23:30:17: 13983.270    data(7,3) Ar=2 At=7 Ft=3 Fr=7 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:17: 13983.272 EZSP: add to queue EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:17: 13983.272 EZSP: got response EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:17: 13983.273 EZSP: send command EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:17: 13983.273 Tx ack(0)+   Ar=3 At=0 Ft=3 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:17: 13983.273 Tx data(3,0) Ar=3 At=0 Ft=3 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.280    data(0,4) Ar=3 At=0 Ft=4 Fr=0 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:18: 13983.280 EZSP: add to queue EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.280 EZSP: got response EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.282 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.282 Tx ack(1)+   Ar=4 At=1 Ft=4 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.283 Tx data(4,1) Ar=4 At=1 Ft=4 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.294    data(1,5) Ar=4 At=1 Ft=5 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:18: 13983.295 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.295 EZSP: got response EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.309 Tx ack(2)+   Ar=5 At=2 Ft=5 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.310 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:18: 13983.310 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+ RX: ZDO, command 0x8021, status: 0x00
+[PZMRC]1A00
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+-----Ipc Server Received message-----
+seqNum: 51
+msgType: C
+05/02/2015 23:30:18: 13983.391 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.391 Tx data(5,2) Ar=5 At=2 Ft=5 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.392    data(2,5) Ar=5 At=2 Ft=6 Fr=2 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13983.392 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:18: 13983.393 Tx ack(3)+   Ar=5 At=3 Ft=6 Fr=3 Frt=0 Ql=1 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.397    data(3,5) Ar=5 At=3 Ft=6 Fr=3 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:18: 13983.397 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:18: 13983.398 Tx ack(4)+   Ar=5 At=4 Ft=6 Fr=4 Frt=0 Ql=1 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.405    data(4,6) Ar=5 At=4 Ft=6 Fr=4 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:18: 13983.405 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.405 EZSP: got response EZSP_SEND_UNICAST (34)
+zbUtil_ZdoSendBindRequest: ZDO Bind request success!
+05/02/2015 23:30:18: 13983.415 Tx ack(5)+   Ar=6 At=5 Ft=6 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.415 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+processing cmd 6
+05/02/2015 23:30:18: 13983.415 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+
+T00000000:RX len 4, ep 01, clus 0x0006 (On/off) FC 08 seq 1A cmd 07 payload[00 ]
+[CRRC]
+05/02/2015 23:30:18: 13983.420 EZSP: send command EZSP_GET_EXTENDED_VALUE (03)
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+05/02/2015 23:30:18: 13983.433 Tx data(6,5) Ar=6 At=5 Ft=6 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.440    data(5,7) Ar=6 At=5 Ft=7 Fr=5 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13983.440 EZSP: add to queue EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.440 EZSP: got response EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.440 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.440 Tx ack(6)+   Ar=7 At=6 Ft=7 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.443 Tx data(7,6) Ar=7 At=6 Ft=7 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.454    data(6,0) Ar=7 At=6 Ft=0 Fr=6 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13983.454 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.454 EZSP: got response EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.454 Tx ack(7)+   Ar=0 At=7 Ft=0 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+-----Ipc Server Received message-----
+seqNum: 52
+msgType: C
+05/02/2015 23:30:18: 13983.482 EZSP: send command EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.482 Tx data(0,7) Ar=0 At=7 Ft=0 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.488    data(7,0) Ar=0 At=7 Ft=1 Fr=7 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13983.488 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:18: 13983.488 Tx ack(0)+   Ar=0 At=0 Ft=1 Fr=0 Frt=0 Ql=1 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.489    data(0,1) Ar=0 At=0 Ft=1 Fr=0 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:18: 13983.489 EZSP: add to queue EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.490 EZSP: got response EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.490 EZSP: send command EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.490 Tx ack(1)+   Ar=1 At=1 Ft=1 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.490 Tx data(1,1) Ar=1 At=1 Ft=1 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.495    data(1,1) Ar=1 At=1 Ft=2 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:18: 13983.495 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:18: 13983.495 Tx ack(2)+   Ar=1 At=2 Ft=2 Fr=2 Frt=0 Ql=1 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.497    data(2,2) Ar=1 At=2 Ft=2 Fr=2 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:18: 13983.498 EZSP: add to queue EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.498 EZSP: got response EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.498 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.498 Tx ack(3)+   Ar=2 At=3 Ft=2 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.498 Tx data(2,3) Ar=2 At=3 Ft=2 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.510    data(3,3) Ar=2 At=3 Ft=3 Fr=3 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:18: 13983.510 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.512 EZSP: got response EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.617 Tx ack(4)+   Ar=3 At=4 Ft=3 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.618 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:18: 13983.618 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+ RX: ZDO, command 0x8021, status: 0x00
+[PZMRC]1B00
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+-----Ipc Server Received message-----
+seqNum: 53
+msgType: C
+05/02/2015 23:30:18: 13983.651 EZSP: send command EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.651 Tx data(3,4) Ar=3 At=4 Ft=3 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.652    data(4,3) Ar=3 At=4 Ft=4 Fr=4 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13983.652 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:18: 13983.652 Tx ack(5)+   Ar=3 At=5 Ft=4 Fr=5 Frt=0 Ql=1 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.660    data(5,3) Ar=3 At=5 Ft=4 Fr=5 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:18: 13983.660 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:18: 13983.663 Tx ack(6)+   Ar=3 At=6 Ft=4 Fr=6 Frt=0 Ql=1 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.663    data(6,4) Ar=3 At=6 Ft=4 Fr=6 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:18: 13983.664 EZSP: add to queue EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.664 EZSP: got response EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.664 EZSP: send command EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.664 Tx ack(7)+   Ar=4 At=7 Ft=4 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.664 Tx data(4,7) Ar=4 At=7 Ft=4 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.672    data(7,5) Ar=4 At=7 Ft=5 Fr=7 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:18: 13983.672 EZSP: add to queue EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.673 EZSP: got response EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.673 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.673 Tx ack(0)+   Ar=5 At=0 Ft=5 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.673 Tx data(5,0) Ar=5 At=0 Ft=5 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.687    data(0,6) Ar=5 At=0 Ft=6 Fr=0 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:18: 13983.687 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.687 EZSP: got response EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.693 Tx ack(1)+   Ar=6 At=1 Ft=6 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13983.693 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:18: 13983.693 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+processing cmd 6
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+-----Ipc Server Received message-----
+seqNum: 54
+msgType: C
+05/02/2015 23:30:18: 13983.722 EZSP: send command EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.722 Tx data(6,1) Ar=6 At=1 Ft=6 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.723    data(1,6) Ar=6 At=1 Ft=7 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13983.723 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:18: 13983.723 Tx ack(2)+   Ar=6 At=2 Ft=7 Fr=2 Frt=0 Ql=1 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.728    data(2,7) Ar=6 At=2 Ft=7 Fr=2 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:18: 13983.728 EZSP: add to queue EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.728 EZSP: got response EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.728 EZSP: send command EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.728 Tx ack(3)+   Ar=7 At=3 Ft=7 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.729 Tx data(7,3) Ar=7 At=3 Ft=7 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.735    data(3,0) Ar=7 At=3 Ft=0 Fr=3 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:18: 13983.736 EZSP: add to queue EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.736 EZSP: got response EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.736 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.736 Tx ack(4)+   Ar=0 At=4 Ft=0 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.736 Tx data(0,4) Ar=0 At=4 Ft=0 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.747    data(4,1) Ar=0 At=4 Ft=1 Fr=4 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:18: 13983.747 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.747 EZSP: got response EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.754 Tx ack(5)+   Ar=1 At=5 Ft=1 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.755 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+
+T00000000:RX len 4, ep 01, clus 0x0008 (Level Control) FC 08 seq 1B cmd 07 payload[00 ]
+[CRRC]
+05/02/2015 23:30:18: 13983.757 EZSP: send command EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.757 Tx data(1,5) Ar=1 At=5 Ft=1 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.773    data(5,2) Ar=1 At=5 Ft=2 Fr=5 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13983.773 EZSP: add to queue EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.773 EZSP: got response EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.774 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.774 Tx ack(6)+   Ar=2 At=6 Ft=2 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.774 Tx data(2,6) Ar=2 At=6 Ft=2 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+05/02/2015 23:30:18: 13983.788    data(6,3) Ar=2 At=6 Ft=3 Fr=6 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13983.788 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.788 EZSP: got response EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.788 Tx ack(7)+   Ar=3 At=7 Ft=3 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+-----Ipc Server Received message-----
+seqNum: 55
+msgType: C
+05/02/2015 23:30:18: 13983.889 EZSP: send command EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.889 Tx data(3,7) Ar=3 At=7 Ft=3 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.895    data(7,4) Ar=3 At=7 Ft=4 Fr=7 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13983.895 EZSP: add to queue EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.895 EZSP: got response EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.895 EZSP: send command EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.896 Tx ack(0)+   Ar=4 At=0 Ft=4 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.896 Tx data(4,0) Ar=4 At=0 Ft=4 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.903    data(0,5) Ar=4 At=0 Ft=5 Fr=0 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13983.903 EZSP: add to queue EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.903 EZSP: got response EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.904 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.904 Tx ack(1)+   Ar=5 At=1 Ft=5 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.904 Tx data(5,1) Ar=5 At=1 Ft=5 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.914    data(1,6) Ar=5 At=1 Ft=6 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13983.915 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.915 EZSP: got response EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.929 Tx ack(2)+   Ar=6 At=2 Ft=6 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.930    data(2,6) Ar=6 At=2 Ft=6 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13983.930 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+05/02/2015 23:30:18: 13983.939 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+processing cmd 0
+-----Ipc Server Received message-----
+seqNum: 56
+msgType: C
+05/02/2015 23:30:18: 13983.962 EZSP: send command EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.962 Tx ack(3)+   Ar=6 At=3 Ft=6 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.963 Tx data(6,3) Ar=6 At=3 Ft=6 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13983.976    data(3,6) Ar=6 At=3 Ft=7 Fr=3 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13983.977 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:18: 13983.977 Tx ack(4)+   Ar=6 At=4 Ft=7 Fr=4 Frt=0 Ql=1 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.978    data(4,7) Ar=6 At=4 Ft=7 Fr=4 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:18: 13983.978 EZSP: add to queue EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.979 EZSP: got response EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13983.979 EZSP: send command EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.979 Tx ack(5)+   Ar=7 At=5 Ft=7 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.979 Tx data(7,5) Ar=7 At=5 Ft=7 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.987    data(5,0) Ar=7 At=5 Ft=0 Fr=5 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:18: 13983.987 EZSP: add to queue EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.987 EZSP: got response EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13983.987 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13983.987 Tx ack(6)+   Ar=0 At=6 Ft=0 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13983.987 Tx data(0,6) Ar=0 At=6 Ft=0 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13984.000    data(6,1) Ar=0 At=6 Ft=1 Fr=6 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:18: 13984.000 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13984.000 EZSP: got response EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13984.002 Tx ack(7)+   Ar=1 At=7 Ft=1 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13984.003 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+
+T00000000:RX len 73, ep 01, clus 0x0000 (Basic) FC 18 seq 1C cmd 01 payload[00 00 00 20 01 01 00 00 20 04 02 00 00 20 02 03 00 00 20 01 04 00 00 42 0D 47 45 5F 41 70 70 6C 69 61 6E 63 65 73 05 00 00 42 09 5A 4C 4C 20 4C 69 67 68 74 06 00 00 42 08 32 30 31 34 30 38 31 32 07 00 00 30 01 ]
+Attribute decoded as 1
+emberAfReadAttributesResponseCallback: clusterId = 0x0
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x0
+emberAfReadAttributesResponseCallback: attribute value = 1
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+Attribute decoded as 4
+emberAfReadAttributesResponseCallback: clusterId = 0x0
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x1
+emberAfReadAttributesResponseCallback: attribute value = 4
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+Attribute decoded as 2
+emberAfReadAttributesResponseCallback: clusterId = 0x0
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x2
+emberAfReadAttributesResponseCallback: attribute value = 2
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+Attribute decoded as 1
+emberAfReadAttributesResponseCallback: clusterId = 0x0
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x3
+emberAfReadAttributesResponseCallback: attribute value = 1
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+Attribute decoded as GE_Appliances
+emberAfReadAttributesResponseCallback: clusterId = 0x0
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x4
+emberAfReadAttributesResponseCallback: attribute value = GE_Appliances
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+Attribute decoded as ZLL Light
+emberAfReadAttributesResponseCallback: clusterId = 0x0
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x5
+emberAfReadAttributesResponseCallback: attribute value = ZLL Light
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+Attribute decoded as 20140812
+emberAfReadAttributesResponseCallback: clusterId = 0x0
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x6
+emberAfReadAttributesResponseCallback: attribute value = 20140812
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+Attribute decoded as 1
+emberAfReadAttributesResponseCallback: clusterId = 0x0
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x7
+emberAfReadAttributesResponseCallback: attribute value = 1
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+05/02/2015 23:30:18: 13984.033    data(7,1) Ar=1 At=7 Ft=1 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13984.035 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:18: 13984.035 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+Svc Disc: complete.
+-----Ipc Server Received message-----
+seqNum: 57
+msgType: C
+05/02/2015 23:30:18: 13984.063 EZSP: send command EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13984.063 Tx ack(0)+   Ar=1 At=0 Ft=1 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13984.063 Tx data(1,0) Ar=1 At=0 Ft=1 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:18: 13984.063    data(0,1) Ar=1 At=0 Ft=2 Fr=0 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:18: 13984.064 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:18: 13984.064 Tx ack(1)+   Ar=1 At=1 Ft=2 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=19
+05/02/2015 23:30:18: 13984.064    data(1,1) Ar=1 At=1 Ft=2 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:18: 13984.064 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:18: 13984.064 Tx ack(2)+   Ar=1 At=2 Ft=2 Fr=2 Frt=0 Ql=1 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13984.069    data(2,2) Ar=1 At=2 Ft=2 Fr=2 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:18: 13984.069 EZSP: add to queue EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13984.070 EZSP: got response EZSP_GET_ADDRESS_TABLE_REMOTE_NODE_ID (5F)
+05/02/2015 23:30:18: 13984.070 EZSP: send command EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13984.070 Tx ack(3)+   Ar=2 At=3 Ft=2 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13984.070 Tx data(2,3) Ar=2 At=3 Ft=2 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13984.078    data(3,3) Ar=2 At=3 Ft=3 Fr=3 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:18: 13984.078 EZSP: add to queue EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13984.078 EZSP: got response EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:18: 13984.078 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13984.078 Tx ack(4)+   Ar=3 At=4 Ft=3 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13984.079 Tx data(3,4) Ar=3 At=4 Ft=3 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:18: 13984.091    data(4,4) Ar=3 At=4 Ft=4 Fr=4 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:18: 13984.091 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:18: 13984.091 EZSP: got response EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:19: 13984.499 Tx ack(5)+   Ar=4 At=5 Ft=4 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:19: 13984.500    data(5,4) Ar=4 At=5 Ft=4 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:19: 13984.500 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:19: 13984.500 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+processing cmd 0
+05/02/2015 23:30:19: 13984.503 Tx ack(6)+   Ar=4 At=6 Ft=4 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:19: 13984.504    data(6,4) Ar=4 At=6 Ft=4 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:19: 13984.505 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:19: 13984.505 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+processing cmd 0
+05/02/2015 23:30:19: 13984.505 Tx ack(7)+   Ar=4 At=7 Ft=4 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:19: 13984.506    data(7,4) Ar=4 At=7 Ft=4 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:19: 13984.506 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:19: 13984.506 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+
+T00000000:RX len 12, ep 01, clus 0x0019 (Over the Air Bootloading) FC 01 seq 00 cmd 01 payload[00 DC 10 01 47 00 04 03 01 ]
+emberAfPreCommandReceivedCallback: received OTA next image request command
+Attribute decoded as 16974848
+QueryNextImageRequest mfgId:0x10DC mfgDeviceId:0x4701, fw:0x01030400
+05/02/2015 23:30:19: 13984.669 EZSP: send command EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:19: 13984.669 Tx ack(0)+   Ar=4 At=0 Ft=4 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:19: 13984.680 Tx data(4,0) Ar=4 At=0 Ft=4 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=18
+05/02/2015 23:30:19: 13984.682    data(0,4) Ar=4 At=0 Ft=5 Fr=0 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:19: 13984.683 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:19: 13984.683 Tx ack(1)+   Ar=4 At=1 Ft=5 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=17
+05/02/2015 23:30:19: 13984.683    DATA(4,4) Ar=4 At=1 Ft=5 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:19: 13984.683    DATA(5,4) Ar=4 At=1 Ft=5 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:19: 13984.684    DATA(6,4) Ar=4 At=1 Ft=5 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:19: 13984.684    DATA(7,4) Ar=4 At=1 Ft=5 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:19: 13984.684    DATA(0,4) Ar=4 At=1 Ft=5 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=17 Rx
+05/02/2015 23:30:19: 13984.685    data(1,4) Ar=4 At=1 Ft=5 Fr=1 Frt=0 Ql=1 To=0 Tp=400 Bf=16 Rx
+05/02/2015 23:30:19: 13984.685 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:19: 13984.685 Tx ack(2)+   Ar=4 At=2 Ft=5 Fr=2 Frt=0 Ql=1 To=0 Tp=400 Bf=16
+05/02/2015 23:30:19: 13984.689    data(2,5) Ar=4 At=2 Ft=5 Fr=2 Frt=0 Ql=1 To=0 Tp=400 Bf=15 Rx
+05/02/2015 23:30:19: 13984.689 EZSP: add to queue EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:19: 13984.689 EZSP: got response EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:30:19: 13984.689 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:19: 13984.690 Tx ack(3)+   Ar=5 At=3 Ft=5 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=16
+05/02/2015 23:30:19: 13984.690 Tx data(5,3) Ar=5 At=3 Ft=5 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=16
+05/02/2015 23:30:19: 13984.701    data(3,6) Ar=5 At=3 Ft=6 Fr=3 Frt=0 Ql=1 To=0 Tp=400 Bf=15 Rx
+05/02/2015 23:30:19: 13984.701 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:19: 13984.701 EZSP: got response EZSP_SEND_UNICAST (34)
+05/02/2015 23:30:19: 13984.741 Tx ack(4)+   Ar=6 At=4 Ft=6 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=16
+05/02/2015 23:30:19: 13984.741    data(4,6) Ar=6 At=4 Ft=6 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=15 Rx
+05/02/2015 23:30:19: 13984.741 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:19: 13984.742 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+
+T00000000:RX len 8, ep 01, clus 0x0004 (Groups) FC 18 seq 1D cmd 01 payload[00 00 00 18 00 ]
+Attribute decoded as 0
+emberAfReadAttributesResponseCallback: clusterId = 0x4
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x0
+emberAfReadAttributesResponseCallback: attribute value = 0
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+05/02/2015 23:30:19: 13984.743 Tx ack(5)+   Ar=6 At=5 Ft=6 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=16
+05/02/2015 23:30:19: 13984.744 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+processing cmd 0
+05/02/2015 23:30:19: 13984.744 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+
+T00000000:RX len 8, ep 01, clus 0x0008 (Level Control) FC 18 seq 1F cmd 01 payload[00 00 00 20 FE ]
+Attribute decoded as 254
+emberAfReadAttributesResponseCallback: clusterId = 0x8
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x0
+emberAfReadAttributesResponseCallback: attribute value = 254
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+05/02/2015 23:30:19: 13984.747 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+
+T00000000:RX len 23, ep 01, clus 0x0019 (Over the Air Bootloading) FC 18 seq 20 cmd 01 payload[02 00 00 23 00 04 03 01 07 00 00 21 DC 10 08 00 00 21 FF FF ]
+Attribute decoded as 16974848
+emberAfReadAttributesResponseCallback: clusterId = 0x19
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x2
+emberAfReadAttributesResponseCallback: attribute value = 16974848
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+Attribute decoded as 4316
+emberAfReadAttributesResponseCallback: clusterId = 0x19
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x7
+emberAfReadAttributesResponseCallback: attribute value = 4316
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+Attribute decoded as 65535
+emberAfReadAttributesResponseCallback: clusterId = 0x19
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x8
+emberAfReadAttributesResponseCallback: attribute value = 65535
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+05/02/2015 23:30:19: 13985.266    data(5,6) Ar=6 At=5 Ft=6 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:19: 13985.266 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:19: 13985.266 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:20: 13985.367 Tx ack(6)+   Ar=6 At=6 Ft=6 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:20: 13985.367    data(6,6) Ar=6 At=6 Ft=6 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=18 Rx
+05/02/2015 23:30:20: 13985.368 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:20: 13985.368 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+
+T00000000:RX len 7, ep 01, clus 0x0006 (On/off) FC 18 seq 00 cmd 0A payload[00 00 10 01 ]
+[RAC]
+Attribute decoded as 1
+emberAfReportAttributesCallback: clusterId    = 0x6
+emberAfReportAttributesCallback: attributeId    = 0x0
+emberAfReportAttributesCallback: attribute state  = 1
+emberAfReportAttributesCallback: src endpoint   = 0x1
+emberAfReportAttributesCallback: network address  = 0xd993
+05/02/2015 23:30:20: 13985.370 Tx ack(7)+   Ar=6 At=7 Ft=6 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=19
+05/02/2015 23:30:20: 13985.370 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+
+T00000000:RX len 7, ep 01, clus 0x0008 (Level Control) FC 18 seq 01 cmd 0A payload[00 00 20 FE ]
+[RAC]
+Attribute decoded as 254
+emberAfReportAttributesCallback: clusterId    = 0x8
+emberAfReportAttributesCallback: attributeId    = 0x0
+emberAfReportAttributesCallback: attribute state  = 254
+emberAfReportAttributesCallback: src endpoint   = 0x1
+emberAfReportAttributesCallback: network address  = 0xd993
+05/02/2015 23:30:20: 13985.681    data(7,6) Ar=6 At=7 Ft=6 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:20: 13985.682 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:30:20: 13985.682 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+processing cmd 0
+05/02/2015 23:30:20: 13985.783 Tx ack(0)+   Ar=6 At=0 Ft=6 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:20: 13985.783    data(0,6) Ar=6 At=0 Ft=6 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:20: 13985.784 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:20: 13985.784 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+
+T00000000:RX len 8, ep 01, clus 0x0006 (On/off) FC 18 seq 1E cmd 01 payload[00 00 00 10 01 ]
+Attribute decoded as 1
+emberAfReadAttributesResponseCallback: clusterId = 0x6
+emberAfReadAttributesResponseCallback: read_status = 0x0
+emberAfReadAttributesResponseCallback: attributeId = 0x0
+emberAfReadAttributesResponseCallback: attribute value = 1
+emberAfReadAttributesResponseCallback: src endpoint = 0x1
+emberAfReadAttributesResponseCallback: network address = 0xd993
+05/02/2015 23:30:20: 13985.937 Tx ack(1)+   Ar=6 At=1 Ft=6 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:49: 14015.131    data(1,6) Ar=6 At=1 Ft=6 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:49: 14015.131 EZSP: add to queue EZSP_INCOMING_ROUTE_RECORD_HANDLER (59)
+05/02/2015 23:30:49: 14015.131 EZSP: got response EZSP_INCOMING_ROUTE_RECORD_HANDLER (59)
+05/02/2015 23:30:49: 14015.151 Tx ack(2)+   Ar=6 At=2 Ft=6 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:30:49: 14015.152    data(2,6) Ar=6 At=2 Ft=6 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:30:49: 14015.152 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:30:49: 14015.152 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0xd993
+
+T00000000:RX len 7, ep 01, clus 0x0006 (On/off) FC 18 seq 02 cmd 0A payload[00 00 10 01 ]

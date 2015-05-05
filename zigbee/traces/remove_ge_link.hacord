@@ -1,0 +1,50 @@
+IpcServerAcceptLoop: accept() success!
+IpcServerAcceptLoop: Ipc Server running in event-loop mode
+-----Ipc Server Received message-----
+seqNum: 26
+msgType: C
+05/02/2015 23:14:24: 13030.180 EZSP: send command EZSP_SEND_UNICAST (34)
+05/02/2015 23:14:24: 13030.180 Tx data(2,0) Ar=2 At=0 Ft=2 Fr=0 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:14:24: 13030.191    data(0,3) Ar=2 At=0 Ft=3 Fr=0 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:14:24: 13030.192 EZSP: add to queue EZSP_SEND_UNICAST (34)
+05/02/2015 23:14:24: 13030.192 EZSP: got response EZSP_SEND_UNICAST (34)
+zbUtil_ZdoLeaveRequest: ZDO Leave Request success!
+05/02/2015 23:14:24: 13030.239 Tx ack(1)+   Ar=3 At=1 Ft=3 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:14:24: 13030.243    data(1,3) Ar=3 At=1 Ft=3 Fr=1 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:14:24: 13030.244 EZSP: add to queue EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:14:24: 13030.244 EZSP: got response EZSP_MESSAGE_SENT_HANDLER (3F)
+05/02/2015 23:14:25: 13030.341 Tx ack(2)+   Ar=3 At=2 Ft=3 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:14:25: 13030.341    data(2,3) Ar=3 At=2 Ft=3 Fr=2 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:14:25: 13030.341 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:14:25: 13030.342 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
+ Message received from 0x6c83
+ RX: ZDO, command 0x8034, status: 0x00
+05/02/2015 23:14:25: 13030.342 Tx ack(3)+   Ar=3 At=3 Ft=3 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:14:25: 13030.343    data(3,3) Ar=3 At=3 Ft=3 Fr=3 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:14:25: 13030.343 EZSP: add to queue EZSP_TRUST_CENTER_JOIN_HANDLER (24)
+05/02/2015 23:14:25: 13030.343 EZSP: got response EZSP_TRUST_CENTER_JOIN_HANDLER (24)
+[TCJC][eui]7CE5240000010237[net]6C83[st]02[dec]03
+05/02/2015 23:14:25: 13030.345 EZSP: send command EZSP_GET_VALUE (AA)
+05/02/2015 23:14:25: 13030.345 Tx ack(4)+   Ar=3 At=4 Ft=3 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:14:25: 13030.345 Tx data(3,4) Ar=3 At=4 Ft=3 Fr=4 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:14:25: 13030.351    data(4,4) Ar=3 At=4 Ft=4 Fr=4 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:14:25: 13030.351 EZSP: add to queue EZSP_GET_VALUE (AA)
+05/02/2015 23:14:25: 13030.352 EZSP: got response EZSP_GET_VALUE (AA)
+05/02/2015 23:14:25: 13030.352 EZSP: send command EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:14:25: 13030.352 Tx ack(5)+   Ar=4 At=5 Ft=4 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:14:25: 13030.352 Tx data(4,5) Ar=4 At=5 Ft=4 Fr=5 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:14:25: 13030.359    data(5,5) Ar=4 At=5 Ft=5 Fr=5 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:14:25: 13030.360 EZSP: add to queue EZSP_GET_EXTENDED_VALUE (03)
+05/02/2015 23:14:25: 13030.360 EZSP: got response EZSP_GET_EXTENDED_VALUE (03)
+joinCallback: last rejoin reason 0, last leave reason 0
+05/02/2015 23:14:25: 13030.360 EZSP: send command EZSP_SET_ADDRESS_TABLE_REMOTE_NODE_ID (5D)
+05/02/2015 23:14:25: 13030.360 Tx ack(6)+   Ar=5 At=6 Ft=5 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:14:25: 13030.399 Tx data(5,6) Ar=5 At=6 Ft=5 Fr=6 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:14:25: 13030.407    data(6,6) Ar=5 At=6 Ft=6 Fr=6 Frt=0 Ql=1 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:14:25: 13030.407 EZSP: add to queue EZSP_SET_ADDRESS_TABLE_REMOTE_NODE_ID (5D)
+05/02/2015 23:14:25: 13030.407 EZSP: got response EZSP_SET_ADDRESS_TABLE_REMOTE_NODE_ID (5D)
+Trust Center Join Handler: status = device left, decision = no action (03), shortid 0x6C83
+05/02/2015 23:14:25: 13030.508 Tx ack(7)+   Ar=6 At=7 Ft=6 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=20
+05/02/2015 23:14:33: 13039.201    data(7,6) Ar=6 At=7 Ft=6 Fr=7 Frt=0 Ql=0 To=0 Tp=400 Bf=19 Rx
+05/02/2015 23:14:33: 13039.201 EZSP: add to queue EZSP_INCOMING_MESSAGE_HANDLER (45)
+05/02/2015 23:14:33: 13039.201 EZSP: got response EZSP_INCOMING_MESSAGE_HANDLER (45)
