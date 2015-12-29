@@ -1,0 +1,31 @@
+# Place in /etc/
+# Quick and dirty monit config for apron
+
+# check services at 15-second intervals
+set daemon  15
+
+#check process hub
+#    matching "hub$"
+#    start program = "/etc/rc.d/init.d/wink start"
+#    stop program = "/etc/rc.d/init.d/wink stop"
+#    depends on aprond
+
+#check process aprond
+#    matching "aprond"
+#    start program = "/etc/rc.d/init.d/apron start"
+#    stop program = "/etc/rc.d/init.d/apron stop"
+#    depends on lutron-core
+#    depends on ZigBeeHACoord
+
+#check process lutron-core with pidfile /var/run/lutron-core.pid
+#    start program = "/etc/rc.d/init.d/lutron-core start"
+#    stop program = "/etc/rc.d/init.d/lutron-core stop"
+
+#check process ZigBeeHACoord
+#    matching "ZigBeeHACoord"
+#    start program = "/etc/rc.d/init.d/zigbee start"
+#    stop program = "/etc/rc.d/init.d/zigbee stop"
+
+check process socat with pidfile /var/run/socat.pid
+     start program = "/etc/rc.d/init.d/socat start"
+     stop program = "/etc/rc.d/init.d/socat stop"
