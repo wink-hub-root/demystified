@@ -1,0 +1,26 @@
+#!/bin/sh
+
+case "${1}" in
+   start)
+      echo -n "Starting Socat..."
+      /usr/sbin/zwavetest /dev/ttySP1
+/usr/sbin/socat -d -d -lm tcp-l:54321,reuseaddr,fork file:/dev/ttySP1,nonblock,raw,echo=0,b115200,icanon=0,parenb=0,cstopb=0,cs8,waitlock=/var/lock/ttySP1 \
+</dev/null &
+      echo $! >/var/run/socat.pid
+      ;;
+
+   stop)
+      echo -n "Stopping Socat..."
+      kill $(/bin/cat /var/run/socat.pid)
+      ;;
+
+   restart)
+      ${0} stop
+      sleep 1
+      ${0} start
+      ;;
+
+   *)
+      echo "Usage: $0 [start|stop|restart]"
+      ;;
+esac
